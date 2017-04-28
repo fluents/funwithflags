@@ -1,0 +1,1674 @@
+{
+  "minimist": [
+    {
+      "name": "minimist",
+      "num": 63102,
+      "sampled": "80",
+      "variation": "1.82",
+      "now": 1493273630540,
+      "mem": {
+        "rss": 81985536,
+        "heapTotal": 57131008,
+        "heapUsed": 14404968,
+        "external": 60649
+      }
+    },
+    {
+      "name": "minimist",
+      "num": 61877,
+      "sampled": "80",
+      "variation": "1.62",
+      "now": 1493275648145,
+      "mem": {
+        "rss": 81498112,
+        "heapTotal": 57655296,
+        "heapUsed": 18567920,
+        "external": 60649
+      }
+    },
+    {
+      "name": "minimist",
+      "num": 68324,
+      "sampled": "87",
+      "variation": "1.95",
+      "now": 1493275666647,
+      "mem": {
+        "rss": 81719296,
+        "heapTotal": 57131008,
+        "heapUsed": 17674408,
+        "external": 17476
+      }
+    },
+    {
+      "name": "minimist",
+      "num": 60115,
+      "sampled": "81",
+      "variation": "1.89",
+      "now": 1493291990476,
+      "mem": {
+        "rss": 82317312,
+        "heapTotal": 58179584,
+        "heapUsed": 19219384,
+        "external": 35947
+      },
+      "tags": "foreach-to-for-defaults"
+    },
+    {
+      "name": "minimist",
+      "num": 63113,
+      "sampled": "86",
+      "variation": "1.57",
+      "tag": "boolean-loop-minus-one",
+      "now": 1493292061287,
+      "mem": {
+        "rss": 82014208,
+        "heapTotal": 57655296,
+        "heapUsed": 16167760,
+        "external": 17476
+      },
+      "tags": "boolean-loop-minus-one"
+    },
+    {
+      "name": "minimist",
+      "num": 64526,
+      "sampled": "87",
+      "variation": "1.01",
+      "tag": "boolean-loop-minus-one",
+      "now": 1493292072396,
+      "mem": {
+        "rss": 97091584,
+        "heapTotal": 71823360,
+        "heapUsed": 41018328,
+        "external": 9284
+      },
+      "tags": "boolean-loop-minus-one"
+    },
+    {
+      "name": "minimist",
+      "num": 61790,
+      "sampled": "84",
+      "variation": "1.60",
+      "tag": "boolean-loop-minus-one",
+      "now": 1493292083362,
+      "mem": {
+        "rss": 102125568,
+        "heapTotal": 75481088,
+        "heapUsed": 25743016,
+        "external": 9284
+      },
+      "tags": "boolean-loop-minus-one"
+    },
+    {
+      "name": "minimist",
+      "num": 61154,
+      "sampled": "81",
+      "variation": "2.94",
+      "tag": "boolean-loop-minus-one",
+      "now": 1493292094236,
+      "mem": {
+        "rss": 102473728,
+        "heapTotal": 76005376,
+        "heapUsed": 23365264,
+        "external": 9284
+      },
+      "tags": "boolean-loop-minus-one"
+    },
+    {
+      "name": "minimist",
+      "num": 60481,
+      "sampled": "85",
+      "variation": "1.33",
+      "tag": "boolean-loop-minus-one",
+      "now": 1493292105185,
+      "mem": {
+        "rss": 103370752,
+        "heapTotal": 76529664,
+        "heapUsed": 39737288,
+        "external": 9284
+      },
+      "tags": "boolean-loop-minus-one"
+    },
+    {
+      "name": "minimist",
+      "num": 58620,
+      "sampled": "86",
+      "variation": "1.34",
+      "tag": "boolean-loop-minus-one",
+      "now": 1493292116197,
+      "mem": {
+        "rss": 103530496,
+        "heapTotal": 76517376,
+        "heapUsed": 38467216,
+        "external": 9284
+      },
+      "tags": "boolean-loop-minus-one"
+    },
+    {
+      "name": "minimist",
+      "num": 60580,
+      "sampled": "87",
+      "variation": "1.33",
+      "tag": "boolean-loop-minus-one",
+      "now": 1493292127369,
+      "mem": {
+        "rss": 103698432,
+        "heapTotal": 76517376,
+        "heapUsed": 22556008,
+        "external": 9284
+      },
+      "tags": "boolean-loop-minus-one"
+    },
+    {
+      "name": "minimist",
+      "num": 62084,
+      "sampled": "85",
+      "variation": "1.48",
+      "tag": "boolean-loop-minus-one",
+      "now": 1493292138325,
+      "mem": {
+        "rss": 103919616,
+        "heapTotal": 76517376,
+        "heapUsed": 25471136,
+        "external": 9284
+      },
+      "tags": "boolean-loop-minus-one"
+    },
+    {
+      "name": "minimist",
+      "num": 61543,
+      "sampled": "89",
+      "variation": "1.68",
+      "tag": "boolean-loop-minus-one",
+      "now": 1493292149195,
+      "mem": {
+        "rss": 104017920,
+        "heapTotal": 76517376,
+        "heapUsed": 34578600,
+        "external": 9284
+      },
+      "tags": "boolean-loop-minus-one"
+    },
+    {
+      "name": "minimist",
+      "num": 52938,
+      "sampled": "79",
+      "variation": "2.82",
+      "tag": "boolean-loop-minus-one",
+      "now": 1493292160346,
+      "mem": {
+        "rss": 104148992,
+        "heapTotal": 76517376,
+        "heapUsed": 40522936,
+        "external": 9284
+      },
+      "tags": "boolean-loop-minus-one"
+    },
+    {
+      "name": "minimist",
+      "num": 56983,
+      "sampled": "84",
+      "variation": "3.35",
+      "tag": "boolean-loop-minus-one",
+      "now": 1493293978660,
+      "mem": {
+        "rss": 83931136,
+        "heapTotal": 59228160,
+        "heapUsed": 19808272,
+        "external": 17476
+      },
+      "tags": "boolean-loop-minus-one",
+      "battery": {
+        "amperage": -2623,
+        "currentCapacity": 1421,
+        "percent": 18,
+        "charging": "",
+        "temp": 3110
+      }
+    },
+    {
+      "name": "minimist",
+      "num": 57963,
+      "sampled": "82",
+      "variation": "2.08",
+      "tag": "boolean-loop-minus-one",
+      "now": 1493293989634,
+      "mem": {
+        "rss": 95289344,
+        "heapTotal": 69726208,
+        "heapUsed": 33368496,
+        "external": 9284
+      },
+      "tags": "boolean-loop-minus-one",
+      "battery": {
+        "amperage": -2623,
+        "currentCapacity": 1421,
+        "percent": 18,
+        "charging": "",
+        "temp": 3110
+      }
+    },
+    {
+      "name": "minimist",
+      "num": 63310,
+      "sampled": "86",
+      "variation": "0.85",
+      "tag": "boolean-loop-minus-one",
+      "now": 1493294000392,
+      "mem": {
+        "rss": 102305792,
+        "heapTotal": 76017664,
+        "heapUsed": 49537216,
+        "external": 9284
+      },
+      "tags": "boolean-loop-minus-one",
+      "battery": {
+        "amperage": -2623,
+        "currentCapacity": 1421,
+        "percent": 18,
+        "charging": "",
+        "temp": 3110
+      }
+    },
+    {
+      "name": "minimist",
+      "num": 57671,
+      "sampled": "86",
+      "variation": "1.52",
+      "tag": "boolean-loop-minus-one",
+      "now": 1493294011258,
+      "mem": {
+        "rss": 101564416,
+        "heapTotal": 74944512,
+        "heapUsed": 22799080,
+        "external": 9284
+      },
+      "tags": "boolean-loop-minus-one",
+      "battery": {
+        "amperage": -2623,
+        "currentCapacity": 1421,
+        "percent": 18,
+        "charging": "",
+        "temp": 3110
+      }
+    },
+    {
+      "name": "minimist",
+      "num": 56777,
+      "sampled": "86",
+      "variation": "1.62",
+      "tag": "boolean-loop-minus-one",
+      "now": 1493294022178,
+      "mem": {
+        "rss": 101703680,
+        "heapTotal": 74944512,
+        "heapUsed": 28638136,
+        "external": 9284
+      },
+      "tags": "boolean-loop-minus-one",
+      "battery": {
+        "amperage": -2623,
+        "currentCapacity": 1421,
+        "percent": 18,
+        "charging": "",
+        "temp": 3110
+      }
+    },
+    {
+      "name": "minimist",
+      "num": 51810,
+      "sampled": "77",
+      "variation": "6.68",
+      "tag": "boolean-loop-minus-one",
+      "now": 1493294033018,
+      "mem": {
+        "rss": 101834752,
+        "heapTotal": 74944512,
+        "heapUsed": 42951968,
+        "external": 9284
+      },
+      "tags": "boolean-loop-minus-one",
+      "battery": {
+        "amperage": -2623,
+        "currentCapacity": 1421,
+        "percent": 18,
+        "charging": "",
+        "temp": 3110
+      }
+    },
+    {
+      "name": "minimist",
+      "num": 61915,
+      "sampled": "82",
+      "variation": "3.52",
+      "tag": "battery",
+      "now": 1493294056445,
+      "mem": {
+        "rss": 83427328,
+        "heapTotal": 58179584,
+        "heapUsed": 17359104,
+        "external": 17476
+      },
+      "tags": "battery",
+      "battery": {
+        "amperage": -4154,
+        "currentCapacity": 1254,
+        "percent": 16,
+        "charging": "",
+        "temp": 3110
+      }
+    },
+    {
+      "name": "minimist",
+      "num": 61519,
+      "sampled": "86",
+      "variation": "1.39",
+      "tag": "battery",
+      "now": 1493294083337,
+      "mem": {
+        "rss": 84439040,
+        "heapTotal": 59228160,
+        "heapUsed": 15168584,
+        "external": 17476
+      },
+      "tags": "battery",
+      "battery": {
+        "amperage": -4154,
+        "currentCapacity": 1254,
+        "percent": 16,
+        "charging": "",
+        "temp": 3110
+      }
+    },
+    {
+      "name": "minimist",
+      "num": 63524,
+      "sampled": "84",
+      "variation": "1.30",
+      "tag": "battery",
+      "now": 1493294105946,
+      "mem": {
+        "rss": 84348928,
+        "heapTotal": 59228160,
+        "heapUsed": 17493840,
+        "external": 17476
+      },
+      "tags": "battery",
+      "battery": {
+        "amperage": -4154,
+        "currentCapacity": 1254,
+        "percent": 16,
+        "charging": "",
+        "temp": 3110
+      }
+    },
+    {
+      "name": "minimist",
+      "num": 64287,
+      "sampled": "87",
+      "variation": "1.42",
+      "tag": "battery",
+      "now": 1493294125249,
+      "mem": {
+        "rss": 85061632,
+        "heapTotal": 59752448,
+        "heapUsed": 19039344,
+        "external": 17476
+      },
+      "tags": "battery",
+      "battery": {
+        "amperage": -1929,
+        "currentCapacity": 1316,
+        "percent": 17,
+        "charging": "",
+        "temp": 3110
+      }
+    },
+    {
+      "name": "minimist",
+      "num": 65344,
+      "sampled": "91",
+      "variation": "0.98",
+      "tag": "battery",
+      "now": 1493294160974,
+      "mem": {
+        "rss": 84365312,
+        "heapTotal": 59752448,
+        "heapUsed": 19417808,
+        "external": 17476
+      },
+      "tags": "battery",
+      "battery": {
+        "amperage": -1929,
+        "currentCapacity": 1316,
+        "percent": 17,
+        "charging": "",
+        "temp": 3110
+      }
+    },
+    {
+      "name": "minimist",
+      "num": 62306,
+      "sampled": "89",
+      "variation": "1.33",
+      "tag": "battery",
+      "now": 1493294177157,
+      "mem": {
+        "rss": 84934656,
+        "heapTotal": 59228160,
+        "heapUsed": 18826864,
+        "external": 17476
+      },
+      "tags": "battery",
+      "battery": {
+        "amperage": -2185,
+        "currentCapacity": 1276,
+        "percent": 16,
+        "charging": "",
+        "temp": 3110
+      }
+    },
+    {
+      "name": "minimist",
+      "num": 64754,
+      "sampled": "89",
+      "variation": "1.29",
+      "tag": "battery",
+      "now": 1493331183204,
+      "mem": {
+        "rss": 84185088,
+        "heapTotal": 59228160,
+        "heapUsed": 16718816,
+        "external": 118463
+      },
+      "tags": "battery",
+      "battery": {
+        "amperage": -151,
+        "currentCapacity": 238,
+        "percent": 3,
+        "charging": "",
+        "temp": 3092
+      }
+    }
+  ],
+  "Minimist!": [
+    {
+      "name": "Minimist!",
+      "num": 73763,
+      "sampled": "83",
+      "variation": "1.75",
+      "now": 1493273630540,
+      "mem": {
+        "rss": 81985536,
+        "heapTotal": 57131008,
+        "heapUsed": 14404968,
+        "external": 60649
+      }
+    },
+    {
+      "name": "Minimist!",
+      "num": 70201,
+      "sampled": "84",
+      "variation": "3.21",
+      "now": 1493275648145,
+      "mem": {
+        "rss": 81498112,
+        "heapTotal": 57655296,
+        "heapUsed": 18567920,
+        "external": 60649
+      }
+    },
+    {
+      "name": "Minimist!",
+      "num": 72590,
+      "sampled": "84",
+      "variation": "1.49",
+      "now": 1493275666647,
+      "mem": {
+        "rss": 81719296,
+        "heapTotal": 57131008,
+        "heapUsed": 17674408,
+        "external": 17476
+      }
+    },
+    {
+      "name": "Minimist!",
+      "num": 74707,
+      "sampled": "81",
+      "variation": "1.68",
+      "now": 1493291990476,
+      "mem": {
+        "rss": 82317312,
+        "heapTotal": 58179584,
+        "heapUsed": 19219384,
+        "external": 35947
+      },
+      "tags": "foreach-to-for-defaults"
+    },
+    {
+      "name": "Minimist!",
+      "num": 70850,
+      "sampled": "85",
+      "variation": "2.50",
+      "tag": "boolean-loop-minus-one",
+      "now": 1493292061287,
+      "mem": {
+        "rss": 82014208,
+        "heapTotal": 57655296,
+        "heapUsed": 16167760,
+        "external": 17476
+      },
+      "tags": "boolean-loop-minus-one"
+    },
+    {
+      "name": "Minimist!",
+      "num": 69926,
+      "sampled": "85",
+      "variation": "1.47",
+      "tag": "boolean-loop-minus-one",
+      "now": 1493292072396,
+      "mem": {
+        "rss": 97091584,
+        "heapTotal": 71823360,
+        "heapUsed": 41018328,
+        "external": 9284
+      },
+      "tags": "boolean-loop-minus-one"
+    },
+    {
+      "name": "Minimist!",
+      "num": 70709,
+      "sampled": "83",
+      "variation": "1.31",
+      "tag": "boolean-loop-minus-one",
+      "now": 1493292083362,
+      "mem": {
+        "rss": 102125568,
+        "heapTotal": 75481088,
+        "heapUsed": 25743016,
+        "external": 9284
+      },
+      "tags": "boolean-loop-minus-one"
+    },
+    {
+      "name": "Minimist!",
+      "num": 72955,
+      "sampled": "87",
+      "variation": "1.19",
+      "tag": "boolean-loop-minus-one",
+      "now": 1493292094236,
+      "mem": {
+        "rss": 102473728,
+        "heapTotal": 76005376,
+        "heapUsed": 23365264,
+        "external": 9284
+      },
+      "tags": "boolean-loop-minus-one"
+    },
+    {
+      "name": "Minimist!",
+      "num": 68314,
+      "sampled": "87",
+      "variation": "1.41",
+      "tag": "boolean-loop-minus-one",
+      "now": 1493292105185,
+      "mem": {
+        "rss": 103370752,
+        "heapTotal": 76529664,
+        "heapUsed": 39737288,
+        "external": 9284
+      },
+      "tags": "boolean-loop-minus-one"
+    },
+    {
+      "name": "Minimist!",
+      "num": 66188,
+      "sampled": "85",
+      "variation": "1.61",
+      "tag": "boolean-loop-minus-one",
+      "now": 1493292116197,
+      "mem": {
+        "rss": 103530496,
+        "heapTotal": 76517376,
+        "heapUsed": 38467216,
+        "external": 9284
+      },
+      "tags": "boolean-loop-minus-one"
+    },
+    {
+      "name": "Minimist!",
+      "num": 66473,
+      "sampled": "83",
+      "variation": "1.82",
+      "tag": "boolean-loop-minus-one",
+      "now": 1493292127369,
+      "mem": {
+        "rss": 103698432,
+        "heapTotal": 76517376,
+        "heapUsed": 22556008,
+        "external": 9284
+      },
+      "tags": "boolean-loop-minus-one"
+    },
+    {
+      "name": "Minimist!",
+      "num": 69390,
+      "sampled": "85",
+      "variation": "1.33",
+      "tag": "boolean-loop-minus-one",
+      "now": 1493292138325,
+      "mem": {
+        "rss": 103919616,
+        "heapTotal": 76517376,
+        "heapUsed": 25471136,
+        "external": 9284
+      },
+      "tags": "boolean-loop-minus-one"
+    },
+    {
+      "name": "Minimist!",
+      "num": 67361,
+      "sampled": "83",
+      "variation": "3.21",
+      "tag": "boolean-loop-minus-one",
+      "now": 1493292149195,
+      "mem": {
+        "rss": 104017920,
+        "heapTotal": 76517376,
+        "heapUsed": 34578600,
+        "external": 9284
+      },
+      "tags": "boolean-loop-minus-one"
+    },
+    {
+      "name": "Minimist!",
+      "num": 62669,
+      "sampled": "77",
+      "variation": "4.27",
+      "tag": "boolean-loop-minus-one",
+      "now": 1493292160346,
+      "mem": {
+        "rss": 104148992,
+        "heapTotal": 76517376,
+        "heapUsed": 40522936,
+        "external": 9284
+      },
+      "tags": "boolean-loop-minus-one"
+    },
+    {
+      "name": "Minimist!",
+      "num": 74234,
+      "sampled": "87",
+      "variation": "1.33",
+      "tag": "boolean-loop-minus-one",
+      "now": 1493293978660,
+      "mem": {
+        "rss": 83931136,
+        "heapTotal": 59228160,
+        "heapUsed": 19808272,
+        "external": 17476
+      },
+      "tags": "boolean-loop-minus-one",
+      "battery": {
+        "amperage": -2623,
+        "currentCapacity": 1421,
+        "percent": 18,
+        "charging": "",
+        "temp": 3110
+      }
+    },
+    {
+      "name": "Minimist!",
+      "num": 69440,
+      "sampled": "81",
+      "variation": "3.97",
+      "tag": "boolean-loop-minus-one",
+      "now": 1493293989634,
+      "mem": {
+        "rss": 95289344,
+        "heapTotal": 69726208,
+        "heapUsed": 33368496,
+        "external": 9284
+      },
+      "tags": "boolean-loop-minus-one",
+      "battery": {
+        "amperage": -2623,
+        "currentCapacity": 1421,
+        "percent": 18,
+        "charging": "",
+        "temp": 3110
+      }
+    },
+    {
+      "name": "Minimist!",
+      "num": 70976,
+      "sampled": "88",
+      "variation": "1.35",
+      "tag": "boolean-loop-minus-one",
+      "now": 1493294000392,
+      "mem": {
+        "rss": 102305792,
+        "heapTotal": 76017664,
+        "heapUsed": 49537216,
+        "external": 9284
+      },
+      "tags": "boolean-loop-minus-one",
+      "battery": {
+        "amperage": -2623,
+        "currentCapacity": 1421,
+        "percent": 18,
+        "charging": "",
+        "temp": 3110
+      }
+    },
+    {
+      "name": "Minimist!",
+      "num": 69233,
+      "sampled": "83",
+      "variation": "2.24",
+      "tag": "boolean-loop-minus-one",
+      "now": 1493294011258,
+      "mem": {
+        "rss": 101564416,
+        "heapTotal": 74944512,
+        "heapUsed": 22799080,
+        "external": 9284
+      },
+      "tags": "boolean-loop-minus-one",
+      "battery": {
+        "amperage": -2623,
+        "currentCapacity": 1421,
+        "percent": 18,
+        "charging": "",
+        "temp": 3110
+      }
+    },
+    {
+      "name": "Minimist!",
+      "num": 71289,
+      "sampled": "88",
+      "variation": "1.16",
+      "tag": "boolean-loop-minus-one",
+      "now": 1493294022178,
+      "mem": {
+        "rss": 101703680,
+        "heapTotal": 74944512,
+        "heapUsed": 28638136,
+        "external": 9284
+      },
+      "tags": "boolean-loop-minus-one",
+      "battery": {
+        "amperage": -2623,
+        "currentCapacity": 1421,
+        "percent": 18,
+        "charging": "",
+        "temp": 3110
+      }
+    },
+    {
+      "name": "Minimist!",
+      "num": 69306,
+      "sampled": "88",
+      "variation": "1.57",
+      "tag": "boolean-loop-minus-one",
+      "now": 1493294033018,
+      "mem": {
+        "rss": 101834752,
+        "heapTotal": 74944512,
+        "heapUsed": 42951968,
+        "external": 9284
+      },
+      "tags": "boolean-loop-minus-one",
+      "battery": {
+        "amperage": -2623,
+        "currentCapacity": 1421,
+        "percent": 18,
+        "charging": "",
+        "temp": 3110
+      }
+    },
+    {
+      "name": "Minimist!",
+      "num": 74365,
+      "sampled": "85",
+      "variation": "1.49",
+      "tag": "battery",
+      "now": 1493294056445,
+      "mem": {
+        "rss": 83427328,
+        "heapTotal": 58179584,
+        "heapUsed": 17359104,
+        "external": 17476
+      },
+      "tags": "battery",
+      "battery": {
+        "amperage": -4154,
+        "currentCapacity": 1254,
+        "percent": 16,
+        "charging": "",
+        "temp": 3110
+      }
+    },
+    {
+      "name": "Minimist!",
+      "num": 71571,
+      "sampled": "80",
+      "variation": "1.47",
+      "tag": "battery",
+      "now": 1493294083337,
+      "mem": {
+        "rss": 84439040,
+        "heapTotal": 59228160,
+        "heapUsed": 15168584,
+        "external": 17476
+      },
+      "tags": "battery",
+      "battery": {
+        "amperage": -4154,
+        "currentCapacity": 1254,
+        "percent": 16,
+        "charging": "",
+        "temp": 3110
+      }
+    },
+    {
+      "name": "Minimist!",
+      "num": 73184,
+      "sampled": "85",
+      "variation": "1.29",
+      "tag": "battery",
+      "now": 1493294105946,
+      "mem": {
+        "rss": 84348928,
+        "heapTotal": 59228160,
+        "heapUsed": 17493840,
+        "external": 17476
+      },
+      "tags": "battery",
+      "battery": {
+        "amperage": -4154,
+        "currentCapacity": 1254,
+        "percent": 16,
+        "charging": "",
+        "temp": 3110
+      }
+    },
+    {
+      "name": "Minimist!",
+      "num": 70140,
+      "sampled": "85",
+      "variation": "1.30",
+      "tag": "battery",
+      "now": 1493294125249,
+      "mem": {
+        "rss": 85061632,
+        "heapTotal": 59752448,
+        "heapUsed": 19039344,
+        "external": 17476
+      },
+      "tags": "battery",
+      "battery": {
+        "amperage": -1929,
+        "currentCapacity": 1316,
+        "percent": 17,
+        "charging": "",
+        "temp": 3110
+      }
+    },
+    {
+      "name": "Minimist!",
+      "num": 68069,
+      "sampled": "84",
+      "variation": "1.92",
+      "tag": "battery",
+      "now": 1493294160974,
+      "mem": {
+        "rss": 84365312,
+        "heapTotal": 59752448,
+        "heapUsed": 19417808,
+        "external": 17476
+      },
+      "tags": "battery",
+      "battery": {
+        "amperage": -1929,
+        "currentCapacity": 1316,
+        "percent": 17,
+        "charging": "",
+        "temp": 3110
+      }
+    },
+    {
+      "name": "Minimist!",
+      "num": 76480,
+      "sampled": "90",
+      "variation": "0.94",
+      "tag": "battery",
+      "now": 1493294177157,
+      "mem": {
+        "rss": 84934656,
+        "heapTotal": 59228160,
+        "heapUsed": 18826864,
+        "external": 17476
+      },
+      "tags": "battery",
+      "battery": {
+        "amperage": -2185,
+        "currentCapacity": 1276,
+        "percent": 16,
+        "charging": "",
+        "temp": 3110
+      }
+    },
+    {
+      "name": "Minimist!",
+      "num": 71918,
+      "sampled": "86",
+      "variation": "1.04",
+      "tag": "battery",
+      "now": 1493331183204,
+      "mem": {
+        "rss": 84185088,
+        "heapTotal": 59228160,
+        "heapUsed": 16718816,
+        "external": 118463
+      },
+      "tags": "battery",
+      "battery": {
+        "amperage": -151,
+        "currentCapacity": 238,
+        "percent": 3,
+        "charging": "",
+        "temp": 3092
+      }
+    }
+  ],
+  "minimist - full": [
+    {
+      "name": "minimist - full",
+      "num": 5303,
+      "sampled": "79",
+      "variation": "2.09",
+      "now": 1493274013803,
+      "mem": {
+        "rss": 81723392,
+        "heapTotal": 58179584,
+        "heapUsed": 17128384,
+        "external": 81048
+      }
+    },
+    {
+      "name": "minimist - full",
+      "num": 5518,
+      "sampled": "78",
+      "variation": "2.08",
+      "now": 1493274591917,
+      "mem": {
+        "rss": 82038784,
+        "heapTotal": 57655296,
+        "heapUsed": 14904768,
+        "external": 17476
+      }
+    },
+    {
+      "name": "minimist - full",
+      "num": 5435,
+      "sampled": "81",
+      "variation": "1.69",
+      "now": 1493274607164,
+      "mem": {
+        "rss": 81813504,
+        "heapTotal": 57131008,
+        "heapUsed": 14910944,
+        "external": 17476
+      }
+    },
+    {
+      "name": "minimist - full",
+      "num": 5466,
+      "sampled": "83",
+      "variation": "2.01",
+      "now": 1493274653283,
+      "mem": {
+        "rss": 81735680,
+        "heapTotal": 57131008,
+        "heapUsed": 16289216,
+        "external": 17476
+      }
+    },
+    {
+      "name": "minimist - full",
+      "num": 4757,
+      "sampled": "78",
+      "variation": "2.10",
+      "now": 1493274666077,
+      "mem": {
+        "rss": 81305600,
+        "heapTotal": 57131008,
+        "heapUsed": 21798136,
+        "external": 89240
+      }
+    },
+    {
+      "name": "minimist - full",
+      "num": 5220,
+      "sampled": "81",
+      "variation": "1.99",
+      "now": 1493274679198,
+      "mem": {
+        "rss": 81534976,
+        "heapTotal": 57131008,
+        "heapUsed": 18602160,
+        "external": 93763
+      }
+    },
+    {
+      "name": "minimist - full",
+      "num": 5375,
+      "sampled": "81",
+      "variation": "1.99",
+      "now": 1493274692162,
+      "mem": {
+        "rss": 81494016,
+        "heapTotal": 57131008,
+        "heapUsed": 19579680,
+        "external": 86127
+      }
+    },
+    {
+      "name": "minimist - full",
+      "num": 5759,
+      "sampled": "86",
+      "variation": "2.03",
+      "now": 1493275623496,
+      "mem": {
+        "rss": 81375232,
+        "heapTotal": 57655296,
+        "heapUsed": 19287528,
+        "external": 52457
+      }
+    },
+    {
+      "name": "minimist - full",
+      "num": 5432,
+      "sampled": "84",
+      "variation": "1.66",
+      "now": 1493275820006,
+      "mem": {
+        "rss": 82063360,
+        "heapTotal": 57131008,
+        "heapUsed": 20955056,
+        "external": 88329
+      }
+    },
+    {
+      "name": "minimist - full",
+      "num": 5942,
+      "sampled": "91",
+      "variation": "1.09",
+      "now": 1493275859592,
+      "mem": {
+        "rss": 82132992,
+        "heapTotal": 58179584,
+        "heapUsed": 19608936,
+        "external": 88885
+      }
+    },
+    {
+      "name": "minimist - full",
+      "num": 4810,
+      "sampled": "78",
+      "variation": "4.87",
+      "now": 1493291314685,
+      "mem": {
+        "rss": 82477056,
+        "heapTotal": 57655296,
+        "heapUsed": 19946616,
+        "external": 89441
+      }
+    },
+    {
+      "name": "minimist - full",
+      "num": 5177,
+      "sampled": "86",
+      "variation": "1.95",
+      "tag": "boolean-loop-minus-one",
+      "now": 1493291756438,
+      "mem": {
+        "rss": 81678336,
+        "heapTotal": 57131008,
+        "heapUsed": 18076112,
+        "external": 17476
+      },
+      "tags": "boolean-loop-minus-one"
+    },
+    {
+      "name": "minimist - full",
+      "num": 4758,
+      "sampled": "81",
+      "variation": "4.04",
+      "tag": "boolean-loop-minus-one",
+      "now": 1493291773891,
+      "mem": {
+        "rss": 81784832,
+        "heapTotal": 57131008,
+        "heapUsed": 18684304,
+        "external": 90949
+      },
+      "tags": "boolean-loop-minus-one"
+    },
+    {
+      "name": "minimist - full",
+      "num": 5249,
+      "sampled": "82",
+      "variation": "1.49",
+      "tag": "boolean-loop-minus-one",
+      "now": 1493291788145,
+      "mem": {
+        "rss": 81530880,
+        "heapTotal": 57655296,
+        "heapUsed": 18216672,
+        "external": 17476
+      },
+      "tags": "boolean-loop-minus-one"
+    },
+    {
+      "name": "minimist - full",
+      "num": 4878,
+      "sampled": "77",
+      "variation": "4.06",
+      "tag": "boolean-loop-minus-one",
+      "now": 1493291801649,
+      "mem": {
+        "rss": 83841024,
+        "heapTotal": 58703872,
+        "heapUsed": 14276128,
+        "external": 92377
+      },
+      "tags": "boolean-loop-minus-one"
+    },
+    {
+      "name": "minimist - full",
+      "num": 4863,
+      "sampled": "79",
+      "variation": "4.62",
+      "tag": "foreach-to-for-defaults",
+      "now": 1493291953982,
+      "mem": {
+        "rss": 81915904,
+        "heapTotal": 57131008,
+        "heapUsed": 15356336,
+        "external": 17476
+      },
+      "tags": "foreach-to-for-defaults"
+    },
+    {
+      "name": "minimist - full",
+      "num": 5428,
+      "sampled": "83",
+      "variation": "2.05",
+      "tag": "foreach-to-for-defaults",
+      "now": 1493291975778,
+      "mem": {
+        "rss": 82714624,
+        "heapTotal": 57131008,
+        "heapUsed": 17680984,
+        "external": 17476
+      },
+      "tags": "foreach-to-for-defaults"
+    },
+    {
+      "name": "minimist - full",
+      "num": 5022,
+      "sampled": "82",
+      "variation": "3.17",
+      "tag": "foreach-to-for-defaults",
+      "now": 1493294213297,
+      "mem": {
+        "rss": 84484096,
+        "heapTotal": 59228160,
+        "heapUsed": 18325008,
+        "external": 17476
+      },
+      "tags": "battery",
+      "battery": {
+        "amperage": -2185,
+        "currentCapacity": 1276,
+        "percent": 16,
+        "charging": "",
+        "temp": 3110
+      }
+    },
+    {
+      "name": "minimist - full",
+      "num": 4562,
+      "sampled": "76",
+      "variation": "9.40",
+      "tag": "battery",
+      "now": 1493328395497,
+      "mem": {
+        "rss": 84406272,
+        "heapTotal": 59752448,
+        "heapUsed": 44025904,
+        "external": 17476
+      },
+      "tags": "battery",
+      "battery": {
+        "amperage": -3169,
+        "currentCapacity": 2357,
+        "percent": 31,
+        "charging": "",
+        "temp": 3021
+      }
+    },
+    {
+      "name": "minimist - full",
+      "num": 5239,
+      "sampled": "76",
+      "variation": "3.61",
+      "tag": "battery",
+      "now": 1493330249972,
+      "mem": {
+        "rss": 83345408,
+        "heapTotal": 58179584,
+        "heapUsed": 16452432,
+        "external": 116542
+      },
+      "tags": "battery",
+      "battery": {
+        "amperage": -2891,
+        "currentCapacity": 788,
+        "percent": 10,
+        "charging": "",
+        "temp": 3102
+      }
+    },
+    {
+      "name": "minimist - full",
+      "num": 2488,
+      "sampled": "75",
+      "variation": "12.34",
+      "tag": "battery",
+      "now": 1493330359312,
+      "mem": {
+        "rss": 81485824,
+        "heapTotal": 56606720,
+        "heapUsed": 41698016,
+        "external": 17476
+      },
+      "tags": "battery",
+      "battery": {
+        "amperage": -2370,
+        "currentCapacity": 717,
+        "percent": 9,
+        "charging": "",
+        "temp": 3105
+      }
+    },
+    {
+      "name": "minimist - full",
+      "num": 4689,
+      "sampled": "82",
+      "variation": "2.94",
+      "tag": "battery",
+      "now": 1493331183204,
+      "mem": {
+        "rss": 84185088,
+        "heapTotal": 59228160,
+        "heapUsed": 16718816,
+        "external": 118463
+      },
+      "tags": "battery",
+      "battery": {
+        "amperage": -151,
+        "currentCapacity": 238,
+        "percent": 3,
+        "charging": "",
+        "temp": 3092
+      }
+    }
+  ],
+  "Minimist - full": [
+    {
+      "name": "Minimist - full",
+      "num": 6508,
+      "sampled": "79",
+      "variation": "2.04",
+      "now": 1493274013803,
+      "mem": {
+        "rss": 81723392,
+        "heapTotal": 58179584,
+        "heapUsed": 17128384,
+        "external": 81048
+      }
+    },
+    {
+      "name": "Minimist - full",
+      "num": 6512,
+      "sampled": "78",
+      "variation": "1.66",
+      "now": 1493274591917,
+      "mem": {
+        "rss": 82038784,
+        "heapTotal": 57655296,
+        "heapUsed": 14904768,
+        "external": 17476
+      }
+    },
+    {
+      "name": "Minimist - full",
+      "num": 6847,
+      "sampled": "80",
+      "variation": "3.31",
+      "now": 1493274607164,
+      "mem": {
+        "rss": 81813504,
+        "heapTotal": 57131008,
+        "heapUsed": 14910944,
+        "external": 17476
+      }
+    },
+    {
+      "name": "Minimist - full",
+      "num": 6620,
+      "sampled": "80",
+      "variation": "1.71",
+      "now": 1493274653283,
+      "mem": {
+        "rss": 81735680,
+        "heapTotal": 57131008,
+        "heapUsed": 16289216,
+        "external": 17476
+      }
+    },
+    {
+      "name": "Minimist - full",
+      "num": 6488,
+      "sampled": "82",
+      "variation": "2.40",
+      "now": 1493274666077,
+      "mem": {
+        "rss": 81305600,
+        "heapTotal": 57131008,
+        "heapUsed": 21798136,
+        "external": 89240
+      }
+    },
+    {
+      "name": "Minimist - full",
+      "num": 7095,
+      "sampled": "81",
+      "variation": "2.09",
+      "now": 1493274679198,
+      "mem": {
+        "rss": 81534976,
+        "heapTotal": 57131008,
+        "heapUsed": 18602160,
+        "external": 93763
+      }
+    },
+    {
+      "name": "Minimist - full",
+      "num": 6595,
+      "sampled": "81",
+      "variation": "1.63",
+      "now": 1493274692162,
+      "mem": {
+        "rss": 81494016,
+        "heapTotal": 57131008,
+        "heapUsed": 19579680,
+        "external": 86127
+      }
+    },
+    {
+      "name": "Minimist - full",
+      "num": 7817,
+      "sampled": "88",
+      "variation": "1.04",
+      "now": 1493275623496,
+      "mem": {
+        "rss": 81375232,
+        "heapTotal": 57655296,
+        "heapUsed": 19287528,
+        "external": 52457
+      }
+    },
+    {
+      "name": "Minimist - full",
+      "num": 7216,
+      "sampled": "79",
+      "variation": "1.85",
+      "now": 1493275820006,
+      "mem": {
+        "rss": 82063360,
+        "heapTotal": 57131008,
+        "heapUsed": 20955056,
+        "external": 88329
+      }
+    },
+    {
+      "name": "Minimist - full",
+      "num": 6903,
+      "sampled": "82",
+      "variation": "3.13",
+      "now": 1493275859592,
+      "mem": {
+        "rss": 82132992,
+        "heapTotal": 58179584,
+        "heapUsed": 19608936,
+        "external": 88885
+      }
+    },
+    {
+      "name": "Minimist - full",
+      "num": 6115,
+      "sampled": "83",
+      "variation": "2.38",
+      "now": 1493291314685,
+      "mem": {
+        "rss": 82477056,
+        "heapTotal": 57655296,
+        "heapUsed": 19946616,
+        "external": 89441
+      }
+    },
+    {
+      "name": "Minimist - full",
+      "num": 6502,
+      "sampled": "81",
+      "variation": "1.97",
+      "tag": "boolean-loop-minus-one",
+      "now": 1493291756438,
+      "mem": {
+        "rss": 81678336,
+        "heapTotal": 57131008,
+        "heapUsed": 18076112,
+        "external": 17476
+      },
+      "tags": "boolean-loop-minus-one"
+    },
+    {
+      "name": "Minimist - full",
+      "num": 6332,
+      "sampled": "83",
+      "variation": "1.51",
+      "tag": "boolean-loop-minus-one",
+      "now": 1493291773891,
+      "mem": {
+        "rss": 81784832,
+        "heapTotal": 57131008,
+        "heapUsed": 18684304,
+        "external": 90949
+      },
+      "tags": "boolean-loop-minus-one"
+    },
+    {
+      "name": "Minimist - full",
+      "num": 6964,
+      "sampled": "86",
+      "variation": "1.42",
+      "tag": "boolean-loop-minus-one",
+      "now": 1493291788145,
+      "mem": {
+        "rss": 81530880,
+        "heapTotal": 57655296,
+        "heapUsed": 18216672,
+        "external": 17476
+      },
+      "tags": "boolean-loop-minus-one"
+    },
+    {
+      "name": "Minimist - full",
+      "num": 6450,
+      "sampled": "83",
+      "variation": "1.56",
+      "tag": "boolean-loop-minus-one",
+      "now": 1493291801649,
+      "mem": {
+        "rss": 83841024,
+        "heapTotal": 58703872,
+        "heapUsed": 14276128,
+        "external": 92377
+      },
+      "tags": "boolean-loop-minus-one"
+    },
+    {
+      "name": "Minimist - full",
+      "num": 6598,
+      "sampled": "83",
+      "variation": "1.79",
+      "tag": "foreach-to-for-defaults",
+      "now": 1493291953982,
+      "mem": {
+        "rss": 81915904,
+        "heapTotal": 57131008,
+        "heapUsed": 15356336,
+        "external": 17476
+      },
+      "tags": "foreach-to-for-defaults"
+    },
+    {
+      "name": "Minimist - full",
+      "num": 6547,
+      "sampled": "82",
+      "variation": "3.56",
+      "tag": "foreach-to-for-defaults",
+      "now": 1493291975778,
+      "mem": {
+        "rss": 82714624,
+        "heapTotal": 57131008,
+        "heapUsed": 17680984,
+        "external": 17476
+      },
+      "tags": "foreach-to-for-defaults"
+    },
+    {
+      "name": "Minimist - full",
+      "num": 6390,
+      "sampled": "81",
+      "variation": "6.20",
+      "tag": "foreach-to-for-defaults",
+      "now": 1493294213297,
+      "mem": {
+        "rss": 84484096,
+        "heapTotal": 59228160,
+        "heapUsed": 18325008,
+        "external": 17476
+      },
+      "tags": "battery",
+      "battery": {
+        "amperage": -2185,
+        "currentCapacity": 1276,
+        "percent": 16,
+        "charging": "",
+        "temp": 3110
+      }
+    },
+    {
+      "name": "Minimist - full",
+      "num": 6286,
+      "sampled": "82",
+      "variation": "3.39",
+      "tag": "battery",
+      "now": 1493328395497,
+      "mem": {
+        "rss": 84406272,
+        "heapTotal": 59752448,
+        "heapUsed": 44025904,
+        "external": 17476
+      },
+      "tags": "battery",
+      "battery": {
+        "amperage": -3169,
+        "currentCapacity": 2357,
+        "percent": 31,
+        "charging": "",
+        "temp": 3021
+      }
+    },
+    {
+      "name": "Minimist - full",
+      "num": 6759,
+      "sampled": "85",
+      "variation": "1.30",
+      "tag": "battery",
+      "now": 1493330249972,
+      "mem": {
+        "rss": 83345408,
+        "heapTotal": 58179584,
+        "heapUsed": 16452432,
+        "external": 116542
+      },
+      "tags": "battery",
+      "battery": {
+        "amperage": -2891,
+        "currentCapacity": 788,
+        "percent": 10,
+        "charging": "",
+        "temp": 3102
+      }
+    },
+    {
+      "name": "Minimist - full",
+      "num": 3089,
+      "sampled": "69",
+      "variation": "5.81",
+      "tag": "battery",
+      "now": 1493330359312,
+      "mem": {
+        "rss": 81485824,
+        "heapTotal": 56606720,
+        "heapUsed": 41698016,
+        "external": 17476
+      },
+      "tags": "battery",
+      "battery": {
+        "amperage": -2370,
+        "currentCapacity": 717,
+        "percent": 9,
+        "charging": "",
+        "temp": 3105
+      }
+    },
+    {
+      "name": "Minimist - full",
+      "num": 7037,
+      "sampled": "85",
+      "variation": "1.11",
+      "tag": "battery",
+      "now": 1493331183204,
+      "mem": {
+        "rss": 84185088,
+        "heapTotal": 59228160,
+        "heapUsed": 16718816,
+        "external": 118463
+      },
+      "tags": "battery",
+      "battery": {
+        "amperage": -151,
+        "currentCapacity": 238,
+        "percent": 3,
+        "charging": "",
+        "temp": 3092
+      }
+    }
+  ]
+}
