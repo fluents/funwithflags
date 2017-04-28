@@ -1,0 +1,38 @@
+{
+  "name": "funwithflags",
+  "version": "1.0.0",
+  "description": "parse argument options",
+  "main": "index.js",
+  "module": "index.js",
+  "files": [
+    "index.js",
+    "fun/index.js",
+    "fun/utils.js"
+  ],
+  "devDependencies": {
+    "fliplog": "*",
+    "dargs": "*",
+    "minimist": "*",
+    "ava": "*"
+  },
+  "scripts": {
+    "test": "ava --verbose"
+  },
+  "keywords": [
+    "argv",
+    "getopt",
+    "parser",
+    "optimist",
+    "minimist"
+  ],
+  "license": "MIT",
+  "author": "James <aretecode@gmail.com>",
+  "homepage": "https://github.com/aretecode/funwithflags#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aretecode/funwithflags.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aretecode/funwithflags/issues"
+  }
+}
