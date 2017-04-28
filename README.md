@@ -37,7 +37,7 @@ npm install funwithflags --save-dev
 | [boolean][examples-boolean] | <code>boolean &#124; string &#124; Array&lt;string&gt;</code> | always treat as booleans. if `true` will treat all double hyphenated arguments without equal signs. (e.g. affects `--foo`, not `-f` or `--foo=bar`) | `null` |
 | [alias][examples-alias] | `Object` | an object mapping string names to strings or arrays of string names to use as aliases | `{}` |
 | [default][examples-default] | `Object` | an object mapping string argument names to default values| `{}` |
-| [['--']][examples-dd] | `boolean` | populate `argv._` with everything before the `--` and `argv['--']` with everything after the `--` | `null` |
+| [`['--']`][examples-dd] | `boolean` | populate `argv._` with everything before the `--` and `argv['--']` with everything after the `--` | `null` |
 | [stopEarly][examples-stop-early] | `boolean` | when true, populate `argv._` with everything after the first non-option| `null` |
 | [unknown][examples-unknown] | `Function` | a function which is invoked with a command line parameter not defined in the `opts` configuration object. If the function returns `false`, the unknown option is not added to `argv` | `null` |
 | [obj][examples-obj] | `boolean` | when true, returns the object instance of FunWithFlags | `null` |
@@ -55,7 +55,7 @@ npm install funwithflags --save-dev
 [examples-dd]: https://github.com/aretecode/funwithflags/wiki/examples#double-dash
 [examples-stop-early]: https://github.com/aretecode/funwithflags/wiki/examples#stop-early
 [examples-extending]:  https://github.com/aretecode/funwithflags/wiki/examples#extending
-[examples-verbose]:  https://github.com/aretecode/funwithflags/wiki/examples#verbose
+[examples-verbose]:  https://github.com/aretecode/funwithflags/wiki/examples-verbose
 
 # [🔬 tests](./test)
 - tests use [ava](https://github.com/avajs/ava)

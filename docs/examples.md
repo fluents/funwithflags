@@ -12,7 +12,7 @@
 - [unknown](#unknown)
 - [double-dash](#double-dash)
 
-[examples-verbose]:  https://github.com/aretecode/funwithflags/wiki/examples#verbose
+[examples-verbose]:  https://github.com/aretecode/funwithflags/wiki/examples-verbose
 
 
 ## types
