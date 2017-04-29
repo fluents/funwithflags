@@ -42,6 +42,9 @@ npm install funwithflags --save-dev
 | [unknown][examples-unknown] | `Function` | a function which is invoked with a command line parameter not defined in the `opts` configuration object. If the function returns `false`, the unknown option is not added to `argv` | `null` |
 | [obj][examples-obj] | `boolean` | when true, returns the object instance of FunWithFlags | `null` |
 | [vars][examples-vars] | `boolean` | when true, allows args without dashes to be used as flags | `null` |
+| camel | `boolean` | when true, camelCases object keys on argv | `null` |
+| underscore | `boolean` | when false, object is returned with no `_` (for looping over object keys or values or the like) | `null` |
+
 
 ### [extending the class][examples-extending]
 
