@@ -1,7 +1,7 @@
 const {resolve} = require('path')
 const log = require('fliplog')
 const minimist = require('minimist')
-const Minimist = require('../index')
+const Fun = require('../index')
 const Record = require('../../../package/bench-chain')
 
 const {record} = Record.suite(__dirname, true)
@@ -80,12 +80,26 @@ function run(parse) {
   ])
 }
 
+const {runTimes} = Fun(process.argv.slice(2), {
+  default: {
+    runTimes: 1,
+  },
+  camel: true,
+  unknown(arg, fun) {
+    if (fun.i === 0) {
+      fun.argv.runTimes = Number(arg)
+    }
+  },
+})
+
+console.log({runTimes})
+
 // order doesn't matter, same result
 record
   .tags('boolean-loop-minus-one')
   .tags('foreach-to-for-defaults')
   .tags('battery')
+  .tags('1.0.1')
   .add('minimist - full', () => run(minimist))
-  .add('Minimist - full', () => run(Minimist))
-  .run()
-// .runTimes(10)
+  .add('Fun - full', () => run(Fun))
+  .runTimes(runTimes)
