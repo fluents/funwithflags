@@ -1,6 +1,6 @@
 {
   "name": "funwithflags",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "parse argument options",
   "main": "index.js",
   "module": "index.js",
@@ -16,17 +16,38 @@
     "ava": "*"
   },
   "scripts": {
-    "test": "ava --verbose"
+    "test": "ava --verbose",
+    "bench-tests": "node bench/bench-tests",
+    "bench": "node ./bench/bench-tests",
+    "bench10": "npm run bench-tests -- --run-times 1 && npm run bench -- 1"
   },
   "keywords": [
     "argv",
     "getopt",
     "parser",
     "optimist",
-    "minimist"
+    "minimist",
+    "fluent",
+    "chain",
+    "chainable",
+    "flags",
+    "fun",
+    "fun-with-flags",
+    "cli"
   ],
   "license": "MIT",
-  "author": "James <aretecode@gmail.com>",
+  "author": [
+    {
+      "name": "James Halliday",
+      "email": "mail@substack.net",
+      "url": "http://substack.net"
+    },
+    {
+      "name": "James",
+      "email": "aretecode@gmail.com",
+      "url": "http://github.com/aretecode"
+    }
+  ],
   "homepage": "https://github.com/aretecode/funwithflags#readme",
   "repository": {
     "type": "git",
