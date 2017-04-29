@@ -1,18 +1,21 @@
-const {isNum, hasKey} = require('./utils')
+/* eslint max-lines: ["error", 700] */
+/* eslint complexity: "off" */
+const {isNum, hasKey, camelCaseKeys} = require('./utils')
 
 /**
  * @prop {Array<string>} args
  * @prop {Object} aliases
- * @prop {Array<string>} notFlags
+ * @prop {Array<string>} notFlags used by var
  * @prop {boolean} _stopEarly `.stopEarly`
  * @prop {boolean} wantsDD using `--` in `.dd`
+ * @prop {boolean} wantsCamel
  * @prop {boolean} [allBools = false]
+ * @prop {boolean} vars use variable arguments as dashed options
  * @prop {Object} argv={_: []}
  * @prop {Function} [unknownFn]
  * @prop {Object} [_defaults] `.defaults`
  * @prop {Object} bools values to treat as booleans
  * @prop {Object} string values to treat as strings
- * @prop {boolean} vars use variable arguments as dashed options
  * @prop {number} i current index to move forward and skip in loops
  */
 class FunWithFlags {
@@ -65,6 +68,26 @@ class FunWithFlags {
    */
   dd(wantsDD = true) {
     this.wantsDD = wantsDD
+    return this
+  }
+
+  /**
+   * @desc delete the ._
+   * @param {boolean} [wantsU=true]
+   * @return {FunWithFlags} @chainable
+   */
+  underscore(wantsU = false) {
+    this.wantsU = wantsU
+    return this
+  }
+
+  /**
+   * @desc return camelCasedKeys (helpful when destructuring)
+   * @param {boolean} [wantsCamel=true]
+   * @return {FunWithFlags} @chainable
+   */
+  camelCase(wantsCamel = true) {
+    this.wantsCamel = wantsCamel
     return this
   }
 
@@ -210,7 +233,7 @@ class FunWithFlags {
     const {unknownFn, argv, aliases} = this
 
     if (arg && unknownFn && !this.argDefined(key, arg)) {
-      if (unknownFn(arg) === false) return this
+      if (unknownFn(arg, this) === false) return this
     }
 
     var value = val
@@ -266,26 +289,18 @@ class FunWithFlags {
     }
 
     if (bools !== null) {
-      if (typeof bools === 'boolean' && bools) {
+      if (typeof bools === 'boolean' && bools === true) {
         this.allBools = true
       }
       else {
-        // toarr
+        // minimist l#47 merged loops
+        // @TODO toarr
         [].concat(bools).filter(Boolean).forEach(key => {
           this.bools[key] = true
           if (this._defaults[key] === undefined) this.setArg(key, false)
           else this.arg(key, this._defaults[key])
         })
       }
-
-      // l#47 @todo merge with ^ loop
-      // const boolKeys = Object.keys(this.bools)
-      // for (let b = 0; b < boolKeys.length; b++) {
-      //   const key = boolKeys[b]
-      //   // const val = this.bools[key]
-      //   if (this._defaults[key] === undefined) this.setArg(key, false)
-      //   else this.arg(key, this._defaults[key])
-      // }
     }
 
     return this
@@ -461,7 +476,7 @@ class FunWithFlags {
     // if it has not been set,
     // or set to false,
     // or set to fn that returns false
-    if (!unknownFn || unknownFn(arg) !== false) {
+    if (!unknownFn || unknownFn(arg, this) !== false) {
       argv._.push(string._ || !isNum(arg) ? arg : Number(arg))
     }
     if (_stopEarly === true) {
@@ -472,7 +487,7 @@ class FunWithFlags {
   }
 
   /**
-   * @desc
+   * @desc go through the args, call the handlers
    * @see FunWithFlags.handleDoubleDashEq
    * @see FunWithFlags.handleNo
    * @see FunWithFlags.handleDoubleDash
@@ -518,7 +533,7 @@ class FunWithFlags {
    * @return {FunWithFlags} @chainable
    */
   finish() {
-    const {_defaults, argv, aliases, notFlags, wantsDD} = this
+    const {_defaults, argv, aliases, notFlags, wantsDD, wantsCamel} = this
     // require('fliplog').red('defaults no key ').data(_defaults).echo()
 
     if (_defaults !== undefined) {
@@ -553,21 +568,35 @@ class FunWithFlags {
       else if (argv._.includes(flag) === false) argv._.push(flag)
     }
 
+    if (this.wantsCamel === true) {
+      this.argv = camelCaseKeys(argv)
+    }
+    if (this.wantsU === false) {
+      this._ = argv._
+      delete argv._
+    }
+
     return this
   }
 }
 
-// eslint-disable-next-line complexity
-// process.argv.slice(2)
+/**
+ * @param  {Array | string | null} [argv=null] process.argv.slice(2)
+ * @param  {Object | boolean | null} [opts=null] options
+ * @return {FunWithFlags | Object} parsed arguments
+ */
 function fwf(argv = null, opts = null) {
   const fun = new FunWithFlags()
 
   if (argv === null) {
     return fun
   }
-
   if (opts === null) {
     return fun.arg(argv).parse().argv
+  }
+  if (opts === true) {
+    const arg = fun.arg(argv)
+    return arg
   }
 
   if (opts.unknown !== undefined) {
@@ -591,16 +620,30 @@ function fwf(argv = null, opts = null) {
   if (opts.vars !== undefined) {
     fun.allowVars() // .arg(argv).parse()
   }
+  if (opts.camel !== undefined) {
+    fun.camelCase(opts.camel)
+  }
+  if (opts.underscore !== undefined) {
+    fun.underscore(opts.underscore)
+  }
 
   if (opts.obj !== undefined) {
     return fun.arg(argv).parse()
-  }
-  if (opts === true) {
-    const arg = fun.arg(argv)
-    return arg
   }
 
   return fun.arg(argv).parse().argv
 }
 
+/**
+ * @desc allows using default process.argv.slice(2)
+ * @param {Object | boolean | null} [opts=null] options
+ * @return {Object} parsed arguments
+ */
+fwf.argv = function fwfArgv(opts = null) {
+  return fwf(process.argv.slice(2), opts)
+}
+
 module.exports = fwf
+module.exports.fwf = module.exports
+module.exports.FunWithFlags = FunWithFlags
+module.exports.default = module.exports
