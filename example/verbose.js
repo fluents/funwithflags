@@ -59,4 +59,4 @@ var args = [
 var obj = require('../')(args, opts)
 const argv = obj.argv
 
-require('fliplog').quick({argv, obj, unknown})
+require('fliplog').verbose(100).data(argv).blue('result').echo()

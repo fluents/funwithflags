@@ -3,6 +3,7 @@
 - [verbose][examples-verbose]
 - [types](#types)
 - [defaults](#defaults)
+- [named-indexes](#named-indexes)
 - [obj](#obj)
 - [alias](#alias)
 - [dot-notation](#dot-notation)
@@ -78,6 +79,31 @@ var argv = fwf(['--specificallytrue'], {
 // }
 
 ```
+
+## named-indexes
+```js
+function unknown(arg, fun) {
+  switch (fun.i) {
+    case 0:
+      fun.argv.shugabush = Boolean(arg)
+      return true
+    case 1:
+      fun.argv.entry = arg
+      return true
+    default:
+      if (arg.includes('.js')) fun.argv.entry = arg
+      return false
+  }
+}
+var argv = parse(['1', 'entry.js', 3], {unknown})
+// var argv = parse(['1', 3, 'entry.js',], {unknown})
+
+// {
+//  shugabush: 1,
+//  entry: '2',
+// }
+```
+
 
 ## obj
 
