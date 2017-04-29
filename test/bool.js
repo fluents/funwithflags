@@ -154,3 +154,14 @@ test('boolean --boool=false', t => {
 
   t.false(parsed.boool)
 })
+
+test.failing('boolean - with string value', t => {
+  var parsed = parse(['--boool=stringvalue'], {
+    default: {
+      boool: true,
+    },
+    boolean: ['boool'],
+  })
+
+  t.false(parsed.boool)
+})
